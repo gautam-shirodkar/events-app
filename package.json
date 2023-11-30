@@ -17,5 +17,6 @@
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "14.0.3"
-  }
+  },
+  "homepage": "https://gautam-shirodkar.github.io/events-app/"
 }
