@@ -1,0 +1,19 @@
+.results {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  &::after {
+    flex: 1;
+    content: "";
+  }
+  .title {
+    color: #646465;
+  }
+  .link {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    color: #546754;
+  }
+}
