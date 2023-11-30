@@ -1,0 +1,19 @@
+.filter_menu {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+
+  label,
+  select,
+  button {
+    margin-right: 10px;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  select {
+    padding: 5px;
+  }
+}
