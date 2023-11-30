@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import classes from "./EventItem.module.scss";
 import LinkButton from "../ui/butttons/LinkButton";
 import DateIcon from "../ui/icons/DateIcon";
@@ -16,7 +17,7 @@ export default function EventItem({ event }) {
   const exploreLink = `/events/${id}`;
   return (
     <li className={classes.card}>
-      <img src={`https://source.unsplash.com/random/${id}`} />
+      <Image src={`https://source.unsplash.com/random/${id}`} />
       <div className={classes.card__content}>
         <h3 className={classes.title}>{title}</h3>
         {/* <p className={classes.description}>{displayDescription}</p> */}

@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import Results from "@/components/events/Results";
 
-export default function index() {
+export default function Index() {
   const router = useRouter();
   const data = router.query.slug;
   if (!data) {
